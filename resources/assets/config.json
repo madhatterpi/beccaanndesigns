@@ -1,0 +1,23 @@
+{
+  "entry": {
+    "main": [
+      "./scripts/main.js",
+      "./styles/main.scss"
+    ],
+    "customizer": [
+      "./scripts/customizer.js"
+    ],
+    "custom": [
+    "./scripts/custom.js"
+  ]
+  },
+  "publicPath": "/wp-content/themes/my-theme",
+  "devUrl": "http://localhost/beccaann",
+  "proxyUrl": "http://localhost:3000",
+  "cacheBusting": "[name]_[hash:8]",
+  "watch": [
+    "app/**/*.php",
+    "config/**/*.php",
+    "resources/views/**/*.php"
+  ]
+}

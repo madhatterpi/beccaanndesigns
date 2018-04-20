@@ -1,0 +1,124 @@
+.front {
+  width: 100%;
+}
+
+.front-left {
+  position: relative;
+  background: #d8d8d8;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  @include md {
+    float: left;
+    width: 60%;
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+.front-left__text {
+  background-color: #fff;
+  opacity: 0.9;
+  padding: 40px;
+}
+
+.front-left__title {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.front-left__summary {
+  font-size: 26px;
+  color: $pink;
+  text-transform: capitalize;
+}
+
+.s {
+  position: absolute;
+  text-align: left;
+  top: 24%;
+  left: 8%;
+  max-width: 800px;
+}
+
+.s h1 {
+  text-transform: uppercase;
+  font-size: 56px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 5px;
+  max-width: 50%;
+}
+
+.s p:first-of-type {
+  font-size: 34px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 5px;
+  max-width: 65%;
+}
+
+.s p:last-of-type {
+  font-size: 24px;
+  max-width: 45%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 5px;
+}
+
+.front-right {
+  width: 100%;
+  min-height: 100vh;
+  @include md {
+    float: right;
+    width: 40%;
+  }
+}
+
+.front-right__about {
+  position: relative;
+  height: 50vh;
+  overflow: hidden;
+  background: #dcdcdc;
+  background-size: cover;
+}
+
+.front-right__shop {
+  position: relative;
+  background: #f3f3f3;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.front-right__section {
+  text-transform: capitalize;
+  padding: 40px;
+}
+
+.lines-pic {
+  background: url("http://www.peterbateman.co.uk/wp-content/uploads/2018/04/spin-top-2-07.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%, 50%;
+}
+
+.abstract-pic {
+  background: url("http://www.peterbateman.co.uk/wp-content/uploads/2018/04/abstrat-08.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%, 50%;
+}
+
+.shop-pic {
+  background: url("http://www.peterbateman.co.uk/wp-content/uploads/2018/04/spin-top-9-09.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%, 50%;
+}
+
+.left-pic {
+  background: url("http://www.peterbateman.co.uk/wp-content/uploads/2018/04/apartment-bedroom-interior-design-ideas.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%, 50%;
+}
